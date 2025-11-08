@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-5ys+32t35h4c^!zod-ob+b8=gsu==zlf-z*b_3u^(^idhtk8d$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost','demo-backend-budget.onrender.com']
 
 
 # Application definition
@@ -78,6 +78,7 @@ WSGI_APPLICATION = 'portal.wsgi.application'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",
+    "demo-backend-budget.onrender.com"
 ]
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
