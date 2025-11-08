@@ -28,7 +28,12 @@ SECRET_KEY = 'django-insecure-5ys+32t35h4c^!zod-ob+b8=gsu==zlf-z*b_3u^(^idhtk8d$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','demo-backend-budget.onrender.com']
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'demo-backend-budget.onrender.com',
+    'expenseplanner2025.netlify.app',
+]
 
 
 # Application definition
@@ -78,7 +83,8 @@ WSGI_APPLICATION = 'portal.wsgi.application'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",
-    "https://demo-backend-budget.onrender.com"
+    "https://demo-backend-budget.onrender.com",
+    "https://expenseplanner2025.netlify.app",
 ]
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
