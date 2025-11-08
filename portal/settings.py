@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'portal.wsgi.application'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",
-    "demo-backend-budget.onrender.com"
+    "https://demo-backend-budget.onrender.com"
 ]
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
